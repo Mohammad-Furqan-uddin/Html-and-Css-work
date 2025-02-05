@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        body{
+            background: linear-gradient(90deg , #d62222 ,#d62249);
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            font-family: Arial, Helvetica, sans-serif;
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(140deg , #e8afd2, #cd529e);
+            border-radius: 8px;
+        }
+        .container .img{
+            /* border: 3px solid black; */
+            margin: 0px;
+            padding: 10px;
+            padding-top: 0px;
+            /* height: 100%; */
+            display: flex;
+            justify-content: center;
+        }
+        .container .button{
+            /* height: 20%;  */
+            /* border: 3px solid brown; */
+            display: flex;
+            /* align-items: center; */
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .container button{
+            padding: 5px 15px;
+            border: none; 
+            border-radius: 5px; 
+            background: linear-gradient(90deg , #d62222 ,#d62249); 
+            color: #e8afd2;
+        }
+        .container .center-btn{
+            /* border: 3px solid black; */
+            display: flex;
+            justify-content: center;
+            padding-bottom: 50px;
+            padding-right: 10px;
+        }
+        .center-btn a{
+            text-decoration: none;
+            padding: 5px 15px;
+            border: none; 
+            border-radius: 5px; 
+            background: linear-gradient(90deg , #d62222 ,#d62249); 
+            color: #e8afd2;
+        }
+    </style>
+</head> 
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="https://images.pexels.com/photos/2010541/pexels-photo-2010541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="button-img" width="300px">
+        </div>
+        <div class="button">
+            <button type="submit" style="margin-left: 15px;">Buy now</button>
+            <button type="submit">Add to  wishlist</button>
+        </div>
+        <div class="center-btn">
+            <button>
+                <a href="./24_Landing-page.html" target="_parent" >Next page</a>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
