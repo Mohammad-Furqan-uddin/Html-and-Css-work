@@ -1,1 +1,1 @@
-#this repository contains only html and css work which can be used for learning purpose
+# this repository contains only html and css work which can be used for learning purpose
